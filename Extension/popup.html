@@ -3,16 +3,17 @@
 <html>
     <head>
         <title>Chrome Defender</title>
+        <script src="script.js"></script>
     </head>
     <body>
         <body style="background-color:beige;">
         <center><h2>Welcome To Chrome Defender!</h2></center>
         <center><h6>Do you want to request access to a website?</h6></center>
-        <center><input type="text" placeholder="Website URL"></input></center>
+        <center><input type="text" placeholder="Website URL" id="exception"></input></center>
         <p></p>
-        <center><button type="button">Click Here</button></center>
+        <center><button type="button" onclick="submitException()">Click Here</button></center>
         <p></p>
-        <center><button type="button">Parent Log-In</button></center>
+        <center><button type="button" onclick="parentLogin()">Parent Log-In</button></center>
         <center><a href="http://www.chromeguard.org">Help</a></center>
 
     </body>
