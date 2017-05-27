@@ -1,4 +1,4 @@
-#footer {
+.copyright {
     background-color: #6279EF;
     text-align: right;
     color: white;
@@ -40,4 +40,9 @@ a {
 
 .tab button:hover {
     background-color: #7d8fed;
+}
+
+.tab img {
+    height: 20px;
+    float: left;
 }
