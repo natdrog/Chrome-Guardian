@@ -1,0 +1,43 @@
+#footer {
+    background-color: #6279EF;
+    text-align: right;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    position: absolute;
+}
+
+#footertext {
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #6279EF;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+.tab button:hover {
+    background-color: #7d8fed;
+}
