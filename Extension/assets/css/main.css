@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Rubik";
+    src: url('Rubik-Regular.ttf') format('ttf');
+}
+
+body {
+    background-color: #006F8A;
+    font-family: "Rubik", "Ubuntu", sans-serif;
+    color: white;
+}
