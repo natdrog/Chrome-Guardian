@@ -13,6 +13,7 @@
 
 #footertext {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -45,4 +46,22 @@ a {
 .tab img {
     height: 20px;
     float: left;
+}
+
+#title {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+body {
+    background-color: #B3ECFF;
+    
+}
+
+.topcontainer {
+    background-color: #6279EF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
 }

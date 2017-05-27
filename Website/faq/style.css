@@ -1,18 +1,6 @@
-.copyright {
-    background-color: #6279EF;
-    text-align: right;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width:100%;
-    position: absolute;
-}
-
 #footertext {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -45,4 +33,13 @@ a {
 .tab img {
     height: 20px;
     float: left;
+}
+
+#title {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+body {
+    background-color: #B3ECFF;
 }
