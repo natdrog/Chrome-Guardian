@@ -5,6 +5,14 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    position: absolute;
+}
+
+#footertext {
+    margin-right: 10px;
 }
 
 a {
