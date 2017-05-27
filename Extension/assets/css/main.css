@@ -3,6 +3,12 @@
     src: url('Rubik-Regular.ttf') format('ttf');
 }
 
+.text {
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 body {
     background-color: #006F8A;
     font-family: "Rubik", "Ubuntu", sans-serif;
