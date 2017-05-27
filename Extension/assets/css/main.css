@@ -3,6 +3,10 @@
     src: url('Rubik-Regular.ttf');
 }
 
+html {
+    width: 200px;
+}
+
 .exception {
     -moz-border-radius: 15px;
     border-radius: 5px;
