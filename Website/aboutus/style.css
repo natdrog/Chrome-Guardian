@@ -90,6 +90,8 @@ body {
     overflow: hidden;
     background-color: #999999;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container img {
