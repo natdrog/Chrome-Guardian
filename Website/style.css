@@ -74,12 +74,12 @@ a {
 
 #title {
     text-align: center;
-    font-family: "Georgia";
 }
 
 body {
     background: linear-gradient(#00bfff, #00678a);
     margin: 0;
+    font-family: "Rubik", sans-serif;
 }
 
 .topcontainer {
