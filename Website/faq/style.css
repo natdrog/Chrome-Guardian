@@ -1,3 +1,16 @@
+.copyright {
+    background-color: #999999;
+    text-align: right;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    position: absolute;
+}
+
 #footertext {
     margin-right: 10px;
     margin-bottom: 10px;
@@ -11,7 +24,7 @@ a {
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #6279EF;
+    background-color: #999999;
 }
 
 .tab button {
@@ -27,7 +40,7 @@ a {
 }
 
 .tab button:hover {
-    background-color: #7d8fed;
+    background-color: #adadad;
 }
 
 .tab img {
@@ -41,5 +54,31 @@ a {
 }
 
 body {
-    background-color: #B3ECFF;
+    background: linear-gradient(#00bfff, #00678a);
+    
+}
+
+.topcontainer {
+    background-color: #999999;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.topcontainer p {
+    margin: 10px;
+}
+
+.faq {
+  width: 330px;
+  max-width: 330px;
+  background-color: white;
+  border-left: solid #03A9F4 8px;
+  box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
+  padding: 16px;
+  height: 270px;
+  margin: 20px;
+  display: inline-block;
+  overflow: hidden;
 }
