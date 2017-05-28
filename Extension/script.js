@@ -15,7 +15,7 @@ function setEmailAddress() {
 }
 
 function changePassword() {
-    var password = "password"; ************
+    var password = "password"; //************
     
     $("#div").empty();
     $("#div").append("<br>");
@@ -25,7 +25,7 @@ function changePassword() {
 }
 
 function blockedSiteHistory() {
-    var blockedSites = ["google.com", "yahoo.com"]; *************
+    var blockedSites = ["google.com", "yahoo.com"]; //*************
     
     $("#div").empty();
     $("#div").append("<br>");
@@ -37,7 +37,7 @@ function blockedSiteHistory() {
 }
 
 function checkPassword() {
-    var password = "password"; *************
+    var password = "password"; //*************
     
     $("#failmessage").remove();
     if($("#pass").val() == password)
@@ -54,7 +54,7 @@ function checkPassword() {
 }
 
 function checkOldPassword() {
-    var password = "password"; ***************
+    var password = "password"; //***************
     
     $("#failmessage").remove();
     if($("#oldpass").val() == password)
@@ -74,26 +74,26 @@ function blockURL() {
     var url = $("#input").val();
     $("#input").val("");
     
-    ********* add url to list of blocked urls
+    //********* add url to list of blocked urls
 }
 
 function blockKeyword() {
     var keyword = $("#input").val();
     $("#input").val("");
     
-    ********* add keyword to list of blocked keywords
+    //********* add keyword to list of blocked keywords
 }
 
 function changeEmail() {
     var email = $("#email").val();
-    ********* change email
+    //********* change email
     
     $("#div").append("<center><p>Email changed successfully.</p></center>");
 }
 
 function changePass() {
     var password = $("#pass").val();
-    ********** change password
+    //********** change password
     
     $("#div").append("<center><p>Password changed successfully.</p></center>")
 }
