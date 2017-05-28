@@ -9,14 +9,21 @@
     right: 0;
     width:100%;
     margin-bottom: 0;
+    height: 120px;
 }
 
-#footertext {
-    margin-right: 10px;
-    margin-bottom: 10px;
+.copyright p {
+    line-height: 40%;
+    font-size: 12px;
+    margin-right: 2%;
 }
 
-#footertext a {
+#copyrightstatement {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
     color: white;
     text-decoration: none;
 }
