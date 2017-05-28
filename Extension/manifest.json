@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Chrome Guardian",
-  "description": "A extension to prevent online Harassment",
+  "description": "Helps parents raise their children in a safe environment, while giving them sufficient access to the Internet.",
   "version": "4.2.0",
 
   "browser_action": {
