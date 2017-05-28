@@ -1,3 +1,7 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+
 .copyright {
     background-color: #999999;
     text-align: right;
@@ -78,7 +82,6 @@
 body {
     background: linear-gradient(#00bfff, #00678a);
     margin: 0;
-    font-family: "Rubik", sans-serif;
 }
 
 .topcontainer {
@@ -94,33 +97,32 @@ body {
 }
 
 .faq {
-  width: 350px;
-  max-width: 350px;
-  background-color: white;
-  border-left: solid #999999 10px;
-  border-top: solid #999999 10px;
-  box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
-  padding: 20px;
-  height: 200px;
-  margin: 16px;
-  display: inline-block;
-  overflow: hidden;
+    width: 350px;
+    max-width: 350px;
+    background-color: white;
+    border-left: solid #999999 10px;
+    border-top: solid #999999 10px;
+    box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    height: 200px;
+    margin: 16px;
+    margin-left: 70px;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .faq h3 {
-  color: black;
-  font-size: 140%;
-  margin: 0;
-  text-align: left;
-  line-height: 120%;
-  font-family: sans-serif;
+    color: black;
+    font-size: 140%;
+    margin: 0;
+    text-align: left;
+    line-height: 120%;
 }
 
 .faq p {
-  color: #666666;
-  margin: 0;
-  text-align: left;
-  margin-top: 5px;
-  line-height: 150%;
-  font-family: sans-serif;
+    color: #666666;
+    margin: 0;
+    text-align: left;
+    margin-top: 5px;
+    line-height: 150%;
 }
