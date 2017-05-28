@@ -3,6 +3,10 @@
         <title>Contact Us</title>
         <link rel="stylesheet" type="text/css" href="../contactus/style.css">
         <link rel="stylesheet" type="text/css" href="../resources/fonts/Rubik.css">
+        <style>.formcontainer{background-color:#969696;text-align:center;color:#fff;border-radius:20px} </style>
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">(function(){emailjs.init("user_DRuTo3teTzMnn12hZnaIb");})();</script>
+        <script>function sendMail(){var e=document.getElementById("fn").value,n=document.getElementById("email").value,t=document.getElementById("msg").value;emailjs.send("gmail","suggestion_form",{name:e,message:t,notes:n}).then(function(e){console.log("SUCCESS",e)},function(e){console.log("FAILED",e)});var o=document.createTextNode("Your response has been recorded, thank you for your feedback."),d=document.getElementById("submit");d.parentNode.insertBefore(o,d),setTimeout(function(){location.reload()},3e3)}setTimeout(function(){document.getElementById("submit").addEventListener("click",sendMail,!1)},3e3);</script>
     </head>
     <body>
         <header class="tab">
@@ -14,6 +18,7 @@
             <button class="tablinks" onclick="window.location.href='../contactus/index.html'">Contact Us</button>
         </header>
         
+        
         <div class="topcontainer">
             <br>
             <h1 id="title">Contact Us</h1>
@@ -24,9 +29,31 @@
             </p>
             <br>
         </div>
+        <p></p>
+
+        <div class="formcontainer">
+            <br>
+            First Name:
+            <br>
+            <input type="text" placeholder="Full Name.." id="fn" value=" ">
+            <br>
+            <p></p>
+            Email:
+            <br>
+            <input type="text" placeholder="Email.." id="email" value=" ">
+            <br>
+            <p></p>
+            Message:
+            <br>
+            <textarea rows="4" cols="50" placeholder="Message.." id="msg" value=" "></textarea>
+            <br>
+            <p></p>
+            <button type="button" id="submit">Submit</button>
+            <br><br>
+        </div>
         
         
-        
+        <p></p>
         <footer class="copyright">
             <br>
             <p id="copyrightstatement">Copyright &copy; 2017</p>

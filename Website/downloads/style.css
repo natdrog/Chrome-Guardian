@@ -103,6 +103,25 @@ body {
     padding: 2%;
 }
 
-.container h2 {
-    
+.wrapper {
+    width: 10000px;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.downloadslatest {
+    width: 300px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+
+.downloadsrecommended {
+    width: 300px;
+    cursor: pointer;
+    float: left;
+    position: relative;
 }
