@@ -23,7 +23,7 @@ a {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background-color: #999999;
 }
 
@@ -44,8 +44,19 @@ a {
 }
 
 .tab img {
-    height: 20px;
+    height: 48px;
     float: left;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px, 16px;
+    transition: 0.3s;
+    color: white;
+}
+
+.tab img:hover {
+    background-color: #adadad;
 }
 
 #title {
@@ -71,14 +82,33 @@ body {
 }
 
 .faq {
-  width: 330px;
-  max-width: 330px;
+  width: 300px;
+  max-width: 300px;
   background-color: white;
-  border-left: solid #03A9F4 8px;
+  border-left: solid #999999 10px;
+  border-top: solid #999999 10px;
   box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
-  padding: 16px;
-  height: 270px;
-  margin: 20px;
+  padding: 20px;
+  height: 250px;
+  margin: 16px;
   display: inline-block;
   overflow: hidden;
+}
+
+.faq h3 {
+  color: black;
+  font-size: 140%;
+  margin: 0;
+  text-align: left;
+  line-height: 120%;
+  font-family: sans-serif;
+}
+
+.faq p {
+  color: #666666;
+  margin: 0;
+  text-align: left;
+  margin-top: 5px;
+  line-height: 150%;
+  font-family: sans-serif;
 }
