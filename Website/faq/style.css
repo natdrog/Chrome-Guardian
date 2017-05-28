@@ -71,6 +71,7 @@
 
 body {
     background: linear-gradient(#00bfff, #00678a);
+    margin: 0;
 }
 
 .topcontainer {

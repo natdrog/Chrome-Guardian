@@ -71,6 +71,7 @@ a {
 
 body {
     background: linear-gradient(#00bfff, #00678a);
+    margin: 0;
 }
 
 .topcontainer {
@@ -83,4 +84,23 @@ body {
 
 .topcontainer p {
     margin: 10px;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #999999;
+    border-radius: 10px;
+}
+
+.container img {
+    float: left;
+    height: 45%;
+    padding: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2%;
+}
+
+.info {
+    padding: 2%;
+    color: white;
 }
