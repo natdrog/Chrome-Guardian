@@ -1,41 +1,18 @@
-.copyright {
-    background-color: #999999;
-    text-align: right;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width:100%;
-    position: absolute;
-}
-
-#footertext {
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
 .tab {
     overflow: hidden;
-    border-bottom: 1px solid #ccc;
     background-color: #999999;
+    border-radius: 10px;
 }
 
 .tab button {
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: bold;
     color: white;
 }
 
@@ -43,40 +20,30 @@ a {
     background-color: #adadad;
 }
 
-.tab img {
-    height: 48px;
+#all {
+    width: 70%;
+}
+
+#left {
+    padding-top: 7%;
     float: left;
+}
+
+#right {
+    padding-top: 7%;
+    float: right;
+}
+
+.tab img {
+    height: 100px;
+    float: center;
     background-color: inherit;
     border: none;
     outline: none;
-    cursor: pointer;
-    padding: 2px, 16px;
-    transition: 0.3s;
-    color: white;
-}
-
-.tab img:hover {
-    background-color: #adadad;
-}
-
-#title {
-    text-align: center;
-    font-family: "Georgia";
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body {
-    background: linear-gradient(#00bfff, #00678a);
-    
-}
-
-.topcontainer {
-    background-color: #999999;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: center;
-    color: white;
-}
-
-.topcontainer p {
-    margin: 10px;
+    background: #CACACA;
 }
