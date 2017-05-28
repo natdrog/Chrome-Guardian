@@ -1,25 +1,66 @@
+
 {
+  "name": "ChromeGuardian",
+  "version": "0.0.1",
   "manifest_version": 2,
-
-  "name": "Chrome Guardian",
-  "description": "A extension to prevent online Harassment",
-  "version": "4.2.0",
-
-  "browser_action": {
-    "default_icon": "assets/img/icon16.png",
-    "default_title": "Chrome Guardian",
-    "default_popup": "popup.html"
-  },
-
+  "description": "ChromeGuardian, the all-in-one tool to watch your kids actvity and prevent cyberbullying",
+  "homepage_url": "http://ChromeGuard.org",
   "icons": {
     "16": "assets/img/icon16.png",
-    "19": "assets/img/icon19.png",
     "48": "assets/img/icon48.png",
     "128": "assets/img/icon128.png"
   },
+
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+
   
+
+  "browser_action": {
+
+    "default_title": "Chrome Guardian",
+    "default_icon": "assets/img/icon16.png",
+    "default_popup": "popup.html"
+
+  },
+  "options_page": "login.html",
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
+     "webRequest",
+          "*://*.google.com/",
+          "webRequestBlocking",
+          "<all_urls>",
+    "bookmarks",
+    "chrome://favicon/",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "contextMenus",
+    "cookies",
+    "tts",
+    "ttsEngine",
+    "history",
+    "idle",
+    "management",
+    "notifications",
+    "tabs",
+    "geolocation",
+    "storage",
+    "https://*/* , http://*/*"
+  ],
+  "omnibox": {
+    "keyword": "extensionizr"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
   ]
 }
