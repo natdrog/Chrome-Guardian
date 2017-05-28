@@ -92,3 +92,41 @@ body {
 .topcontainer p {
     margin: 10px;
 }
+
+.container {
+    overflow: hidden;
+    background-color: #999999;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2%;
+    color: white;
+}
+
+.container2 {
+    overflow: hidden;
+    background-color: #999999;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    overflow: hidden;
+    background-color: inherits;
+    margin-left: 31%;
+}
+
+.downloads {
+    width: 250px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.downloads:hover {
+    background-color: #adadad;
+}
