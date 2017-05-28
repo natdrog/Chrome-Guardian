@@ -1,6 +1,7 @@
 function submitException () {
-    localStorage.setItem('exception', document.getElementById("exception").value);
-    document.write("color:red">"Submitted");
+    document.write("Submitted");
+    console.log("Yey it worked");
+    return
 }
 function parentLogin () {
 
