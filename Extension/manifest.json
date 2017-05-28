@@ -19,6 +19,11 @@
 
   
 
+  "name": "Chrome Guardian",
+  "description": "Helps parents raise their children in a safe environment, while giving them sufficient access to the Internet.",
+  "version": "4.2.0",
+
+
   "browser_action": {
 
     "default_title": "Chrome Guardian",

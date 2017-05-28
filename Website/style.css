@@ -23,7 +23,7 @@ a {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background-color: #999999;
 }
 
@@ -44,8 +44,19 @@ a {
 }
 
 .tab img {
-    height: 20px;
+    height: 48px;
     float: left;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px, 16px;
+    transition: 0.3s;
+    color: white;
+}
+
+.tab img:hover {
+    background-color: #adadad;
 }
 
 #title {
