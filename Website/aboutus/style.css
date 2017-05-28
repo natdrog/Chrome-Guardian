@@ -103,7 +103,7 @@ body {
 
 .container img {
     float: left;
-    height: 45%;
+    height: 70%;
     padding: 2.5%;
     padding-left: 2.5%;
     padding-right: 2%;
@@ -112,4 +112,12 @@ body {
 .info {
     padding: 2%;
     color: white;
+}
+
+.info h1 {
+    font-size: 50px;
+}
+
+.info p {
+    font-size: 30px;
 }
