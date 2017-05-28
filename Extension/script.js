@@ -26,14 +26,20 @@ function changePassword() {
 
 function blockedSiteHistory() {
     var blockedSites = ["google.com", "yahoo.com"]; //*************
+    var blockedKeywords = ["fluff", "shirt", "birch", "axe", "knitter"]; //***********
     
     $("#div").empty();
     $("#div").append("<br>");
     $("#div").append("<center><b>Blocked Sites:</b></center>");
     
-    for(var blockedSite in blockedSites) {
+    for(var blockedSite in blockedSites)
         $("#div").append("<center><p>" + blockedSites[blockedSite] + "</p></center>");
-    }
+    
+    $("#div").append("<br>");
+    $("#div").append("<center><b>Blocked Keywords:</b></center>");
+    
+    for(var blockedKeyword in blockedKeywords)
+        $("#div").append("<center><p>" + blockedKeywords[blockedKeyword] + "</p></center>");
 }
 
 function checkPassword() {
