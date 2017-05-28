@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     width:100%;
-    position: absolute;
+    margin-bottom: 0;
 }
 
 #footertext {
@@ -43,6 +43,11 @@ a {
     background-color: #adadad;
 }
 
+.tab div {
+    float: left;
+    padding: 10px;
+}
+
 .tab img {
     height: 48px;
     float: left;
@@ -66,7 +71,6 @@ a {
 
 body {
     background: linear-gradient(#00bfff, #00678a);
-    
 }
 
 .topcontainer {

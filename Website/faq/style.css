@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     width:100%;
-    position: absolute;
+    margin-bottom: 0;
 }
 
 #footertext {
@@ -16,7 +16,7 @@
     margin-bottom: 10px;
 }
 
-a {
+#footertext a {
     color: white;
     text-decoration: none;
 }
@@ -43,6 +43,11 @@ a {
     background-color: #adadad;
 }
 
+.tab div {
+    float: left;
+    padding: 10px;
+}
+
 .tab img {
     height: 48px;
     float: left;
@@ -66,7 +71,6 @@ a {
 
 body {
     background: linear-gradient(#00bfff, #00678a);
-    
 }
 
 .topcontainer {
@@ -82,14 +86,14 @@ body {
 }
 
 .faq {
-  width: 300px;
-  max-width: 300px;
+  width: 350px;
+  max-width: 350px;
   background-color: white;
   border-left: solid #999999 10px;
   border-top: solid #999999 10px;
   box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
   padding: 20px;
-  height: 250px;
+  height: 200px;
   margin: 16px;
   display: inline-block;
   overflow: hidden;
