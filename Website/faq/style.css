@@ -111,6 +111,36 @@ body {
     overflow: hidden;
 }
 
+.faq2 {
+    width: 350px;
+    max-width: 350px;
+    background-color: white;
+    border-left: solid #999999 10px;
+    border-top: solid #999999 10px;
+    box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    height: 200px;
+    margin: 16px;
+    margin-left: 300px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.faq3 {
+    width: 350px;
+    max-width: 350px;
+    background-color: white;
+    border-left: solid #999999 10px;
+    border-top: solid #999999 10px;
+    box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    height: 200px;
+    margin: 16px;
+    margin-left: 100px;
+    display: inline-block;
+    overflow: hidden;
+}
+
 .faq h3 {
     color: black;
     font-size: 140%;
